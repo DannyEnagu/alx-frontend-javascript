@@ -13,12 +13,12 @@
 - Iterators and for-of loops
 
 ## Resource Links
-[ECMAScript 6 - ECMAScript 2015]
-[Statements and declarations]
-[Arrow functions]
-[Default parameters]
-[Rest parameter]
-[Javascript ES6 — Iterables and Iterators]
+- [ECMAScript 6 - ECMAScript 2015]
+- [Statements and declarations]
+- [Arrow functions]
+- [Default parameters]
+- [Rest parameter]
+- [Javascript ES6 — Iterables and Iterators]
 
 
 [ECMAScript 6 - ECMAScript 2015]: https://www.w3schools.com/js/js_modules.asp
