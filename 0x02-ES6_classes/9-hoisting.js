@@ -1,37 +1,38 @@
 /* eslint max-classes-per-file: ["error", 2] */
+/* eslint no-underscore-dangle: ["error", { "allowAfterThis": true }] */
 
 export class HolbertonClass {
   constructor(year, location) {
-    this._year = year; // eslint-disable-line
-    this._location = location; // eslint-disable-line
+    this._year = year;
+    this._location = location;
   }
 
   get year() {
-    return this._year; // eslint-disable-line
+    return this._year;
   }
 
   get location() {
-    return this._location; // eslint-disable-line
+    return this._location;
   }
 }
 
 export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
-    this._firstName = firstName; // eslint-disable-line
-    this._lastName = lastName; // eslint-disable-line
-    this._holbertonClass = holbertonClass; // eslint-disable-line
+    this._firstName = firstName;
+    this._lastName = lastName;
+    this._holbertonClass = holbertonClass;
   }
 
   get fullName() {
-    return `${this._firstName} ${this._lastName}`; // eslint-disable-line
+    return `${this._firstName} ${this._lastName}`;
   }
 
   get holbertonClass() {
-    return this._holbertonClass; // eslint-disable-line
+    return this._holbertonClass;
   }
 
   get fullStudentDescription() {
-    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`; // eslint-disable-line
+    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
   }
 }
 
