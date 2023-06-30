@@ -1,6 +1,16 @@
+/* eslint no-underscore-dangle: ["error", { "allowAfterThis": true }] */
+
 export default class HolbertonClass {
   constructor(size, location) {
-    this._size = size; // eslint-disable-line
-    this._location = location; // eslint-disable-line
+    this._size = size;
+    this._location = location;
+  }
+
+  valueOf() {
+    return this._size;
+  }
+
+  toString() {
+    return this._location;
   }
 }
